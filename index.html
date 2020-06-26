@@ -2,12 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- set the character set,so the browser knows which character set should be loaded and valid for webpage -->
     <meta charset="UTF-8">
     <!-- for responsive web development: -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta Data: -->
     <title>HOME | Harpreet Kour</title>
     <meta name="author" content="Harpreet kour">
+    <!-- Style(s): -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Script(s): -->
+    <!-- deferattribute will cause this script to wait until the body is loaded before executing ( important for DOM / ELEMENT MANIPULATION BY SCRIPTS) -->
+    <script src="js/scripts.js" type="text/javascript" defer></script>
+
 </head>
 
 <body>
@@ -34,10 +41,16 @@
         I'd like to share with each of you, my favourite picture! It is a beautiful flower , check it out below!
     </p>
     <figure>
-        <img src="img/flower.jpg" alt="Beautiful maroon flower">
+        <!-- --src is the location of the image. -->
+        <!-- alt is "alternate text" to describe the image. -->
+        <!-- title is a popup tooltip for when you hover over the element.-->
+        <img src="C:\Users\manin\Desktop\TECHCareer Spring 2020\ClassProjects\html\img\flower.jpg"
+            alt="Beautiful maroon flower" title="Beautiful flower ">
         <figcaption>
             illustrate credited to:
-            <a href="https://pixabay.com/photos/water-lily-red-flower-blossom-5330137/">Pixabay</a>
+            <!--   target= "_blank" makes the link open in a brand new tab (leaving the original tab open.) -->
+            <a href="https://pixabay.com/photos/water-lily-red-flower-blossom-5330137/" target="_blank"
+                title="Click here to visit to author">Pixabay</a>
         </figcaption>
 
     </figure>
