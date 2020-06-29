@@ -65,6 +65,27 @@
                     </figcaption>
                 </figure>
             </section>
+            <section>
+                <!--remember to go down an order of heading when using subheadings!-->
+                <h3>Rocky mountains</h3>
+                <p>
+                    I'd like to share with each of you, my favourite picture! It is a Rocky mountains , check it out
+                    below!
+                </p>
+                <figure>
+                    <!-- --src is the location of the image. -->
+                    <!-- alt is "alternate text" to describe the image. -->
+                    <!-- title is a popup tooltip for when you hover over the element.-->
+                    <img src="C:\Users\manin\Desktop\TECHCareer Spring 2020\ClassProjects\html\img\rocks.jpg"
+                        alt="Rocky mountainsr" title=" beautiful landscape of Rocky mountains">
+                    <figcaption>
+                        illustrate credited to:
+                        <!--   target= "_blank" makes the link open in a brand new tab (leaving the original tab open.) -->
+                        <a href="https://pixabay.com/photos/water-lily-red-flower-blossom-5330137/" target="_blank"
+                            title="Click here to visit to author">Pixabay</a>
+                    </figcaption>
+                </figure>
+            </section>
         </article>
         <!-- Aside is used for content that is tangentially related to the article, but once again may not make full sense when taken out of context -->
         <aside>
@@ -76,6 +97,7 @@
     </main>
     <footer>
         <h2> Footer</h2>
+        <!-- In our contact page, our copyright is not inside of a div, meaning it does satisfy "body>footer>p". Therefore it is orange. -->
         <p>
             thanks for visiting!
         </p>
@@ -83,6 +105,8 @@
         <div>
             <p>
                 <!-- span is non semantic inline element -->
+                <!-- In our index page, our copyright is inside of a div, meaning it does not satisfy "body>footer>p". Only a direct descendent of footer
+          will satisfy that selector. Therefore it is yellow.-->
                 &copy; Copyright 2020 <span></span>TECHCareers</span>;
                 All Rights Reserved
             </p>

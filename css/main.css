@@ -13,12 +13,12 @@ footer{
 /* 
   Descendent Selectors: Selects every element on the page of the latter name that is a child (somewhere) of the former name.
 */
+body>footer>p{
+    background-color: orange;
+}
 footer p {
     background-color: yellow;
 }
 /*
 Direct Descendent Selectors: Selects every element on the page of the latter name that is a DIRECT child of the former name. and it should always be in sequence i.e
-footer p{} then footer>p and not vice versa*/
-footer>p{
-    background-color: orange;
-}
+footer p{} then footer>p and not vice versa    OR  we can do  body>footer>p{} then we can use it in any sequence.*/
