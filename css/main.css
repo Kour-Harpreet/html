@@ -11,7 +11,7 @@ footer{
     background-color: cyan;
 }
 /* 
-  Descendent Selectors: Selects every element on the page of the latter name that is a child (somewhere) of the former name.
+  Direct Descendent Selectors: Selects every element on the page of the latter name that is a child (somewhere) of the former name.
 */
 body>footer>p{
     background-color: orange;
@@ -19,6 +19,42 @@ body>footer>p{
 footer p {
     background-color: yellow;
 }
+/* 
+  Class Selectors: Are used to select every element on a page with a given class attribute, regardless of element type. Classes have higher specificity than element selectors. 
+*/
+.photo {
+    border: 2px solid black;
+  }
+  /* 
+    ID Selectors: Are used to select the single element with the given ID. IDs have higher specificity than class selectors.
+  */
+  #turbines {
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 50%;
+  }
 /*
 Direct Descendent Selectors: Selects every element on the page of the latter name that is a DIRECT child of the former name. and it should always be in sequence i.e
 footer p{} then footer>p and not vice versa    OR  we can do  body>footer>p{} then we can use it in any sequence.*/
+#turbine{
+    border:3px solid red;
+    border-radius: 10px;
+    width:50%;
+
+}
+
+
+main>p{
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline overline;
+    font-style: italic;
+}
+.contact main {
+    background-image: url("../img/rocky-mountains.jpg");
+    background-size: cover;
+  }
+  .contact .mask {
+    background-color: rgba(50, 50, 50, 0.5);
+  } 
