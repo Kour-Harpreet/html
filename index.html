@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- set the character set,so the browser knows which character set should be loaded and valid for webpage -->
     <meta charset="UTF-8">
@@ -14,60 +13,80 @@
     <!-- Script(s): -->
     <!-- deferattribute will cause this script to wait until the body is loaded before executing ( important for DOM / ELEMENT MANIPULATION BY SCRIPTS) -->
     <script src="js/scripts.js" type="text/javascript" defer></script>
-
 </head>
-
 <body>
-
     <h1> Home </h1>
     <header>
         <h2>Navigation</h2>
         <ul>
             <!-- navigation -->
             <li><a href="index.html"> Home</a></li>
-
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
+        </nav>
     </header>
-    <main>    
-    <h2>Skills</h2>
-    <p>
-    <!-- paragraph -->
-        Here are some of my skills:
-    </p>
-    <ul>
-    <!-- unordered list -->
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>PHP</li>
-    </ul>
-    <h2>My favourite Picture</h2>
-    <p>
-        I'd like to share with each of you, my favourite picture! It is a beautiful flower , check it out below!
-    </p>
-    <figure>
-    <!-- --src is the location of the image. -->
-    <!-- alt is "alternate text" to describe the image. -->
-    <!-- title is a popup tooltip for when you hover over the element.-->
-        <img src="C:\Users\manin\Desktop\TECHCareer Spring 2020\ClassProjects\html\img\flower.jpg"
-            alt="Beautiful maroon flower" title="Beautiful flower ">
-        <figcaption>
-            illustrate credited to:
-    <!--   target= "_blank" makes the link open in a brand new tab (leaving the original tab open.) -->
-            <a href="https://pixabay.com/photos/water-lily-red-flower-blossom-5330137/" target="_blank"
-                title="Click here to visit to author">Pixabay</a>
-        </figcaption>
-    </figure>
-</main>
-
+    <main>
+        <h2>Skills</h2>
+        <p>
+            <!-- paragraph -->
+            Here are some of my skills:
+        </p>
+        <ul>
+            <!-- unordered list -->
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>PHP</li>
+        </ul>
+        <!-- Article is a semantic structuring element that the inner content is a self-contained and will make sense standing on its own. -->
+        <article>
+            <h2>My favourite Pictures</h2>
+            <p>
+                below are some of my favourite pictures.
+            </p>
+            <!--section is a semantic structuring element that does not imply that the inner content is self contained. They can be used to break up articles and have subheadings-->
+            <section>
+                <!--remember to go down an order of heading when using subheadings!-->
+                <h3>flowers</h3>
+                <p>
+                    I'd like to share with each of you, my favourite picture! It is a beautiful flower , check it out
+                    below!
+                </p>
+                <figure>
+                    <!-- --src is the location of the image. -->
+                    <!-- alt is "alternate text" to describe the image. -->
+                    <!-- title is a popup tooltip for when you hover over the element.-->
+                    <img src="C:\Users\manin\Desktop\TECHCareer Spring 2020\ClassProjects\html\img\flower.jpg"
+                        alt="Beautiful maroon flower" title="Beautiful flower ">
+                    <figcaption>
+                        illustrate credited to:
+                        <!--   target= "_blank" makes the link open in a brand new tab (leaving the original tab open.) -->
+                        <a href="https://pixabay.com/photos/water-lily-red-flower-blossom-5330137/" target="_blank"
+                            title="Click here to visit to author">Pixabay</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </article>
+        <!-- Aside is used for content that is tangentially related to the article, but once again may not make full sense when taken out of context -->
+        <aside>
+            <h2>hobbies</h2>
+            <p>
+                I also enjoy drawing and swimming!
+            </p>
+        </aside>
+    </main>
     <footer>
         <h2> Footer</h2>
         <p>
-            &copy; Copyright 2020 TECHCareers;
-            All Rights Reserved
+            thanks for visiting!
         </p>
+        <!--div is a non-semantic block-level styling element -->
+        <div>
+            <p>
+                <!-- span is non semantic inline element -->
+                &copy; Copyright 2020 <span></span>TECHCareers</span>;
+                All Rights Reserved
+            </p>
+        </div>
     </footer>
 </body>
-
 </html>

@@ -1,3 +1,24 @@
 body {
     background-color: salmon;
 }
+header{
+    background-color: red;
+}
+main{
+    background-color: chartreuse;
+}
+footer{
+    background-color: cyan;
+}
+/* 
+  Descendent Selectors: Selects every element on the page of the latter name that is a child (somewhere) of the former name.
+*/
+footer p {
+    background-color: yellow;
+}
+/*
+Direct Descendent Selectors: Selects every element on the page of the latter name that is a DIRECT child of the former name. and it should always be in sequence i.e
+footer p{} then footer>p and not vice versa*/
+footer>p{
+    background-color: orange;
+}
