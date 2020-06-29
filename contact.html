@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- set the character set,so the browser knows which character set should be loaded and valid for webpage -->
     <meta charset="UTF-8">
@@ -14,6 +15,7 @@
     <!-- deferattribute will cause this script to wait until the body is loaded before executing ( important for DOM / ELEMENT MANIPULATION BY SCRIPTS) -->
     <script src="js/scripts.js" type="text/javascript" defer></script>
 </head>
+
 <body>
     <h1> Contact</h1>
     <header>
@@ -73,9 +75,52 @@
         <label for="exstudent">Ex-Student</label>
         <input id="other" name="relation" value="other" type="radio" checked>
         <label for="other">Other</label>
-        <br />
         <!--Result of the submission button after we enter and click submit...this will be the URL
              file:///C:/Users/manin/Desktop/TECHCareer%20Spring%202020/ClassProjects/html/contact.html?name=Harpreet+kour&password=army&relation=coworker&message=xvdxzvczbfzdb -->
+
+        <br />
+        <!-- 
+        Checkboxes are like radio buttons, except you can have multiple - or no - options selected.
+        Aside from that difference, the structure of the element is very similar, with the attributes serving
+        the same purposes. 
+      -->
+         <!-- here in checkbox name ==" " is not same for all, but in radio it is same. -->
+        <p>Please select all that apply: checkboxes" ></p>
+        <input id="programming" name="programming" value="programming" type="checkbox">
+        <label for="programming">I like programming</label>
+        <input id="drawing" name="drawing" value="drawing" type="checkbox">
+        <label for="drawing">I like programming</label>
+        <input id="swimming" name="swimming" value="swimming" type="checkbox">
+        <label for="swimming">I like programming</label>
+
+
+        <br />
+        <!-- 
+        Selects (drop-down lists) serve a somewhat similar function to radio buttons, but conserve space for larger lists.
+        They allow you to select one option from a list.
+        The value of the selected option will be passed under the "name" attribute of the parent select.
+      -->
+        <label for="province">Please select your province:</label>
+        <select name="province" id="province">
+
+            <option value="AB">Alberta</option>
+            <option value="BC">British Columbia</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="ON">Ontario</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="QC">Quebec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NU">Nunavut</option>
+            <option value="YT">Yukon</option>
+
+
+
+        </select>
+<br/>
         <!-- 
         A textarea element is essentially a multi-line 'input type="text"' element.
         It will add a scrollbar when the content exceeeds its visual size.
@@ -99,4 +144,5 @@
         </p>
     </footer>
 </body>
+
 </html>
