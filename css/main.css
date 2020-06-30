@@ -16,6 +16,9 @@ footer{
 body>footer>p{
     background-color: orange;
 }
+/* 
+  Descendent Selectors: Selects every element on the page of the latter name that is a child (somewhere) of the former name.
+*/
 footer p {
     background-color: yellow;
 }
@@ -34,16 +37,8 @@ footer p {
     width: 50%;
   }
 /*
-Direct Descendent Selectors: Selects every element on the page of the latter name that is a DIRECT child of the former name. and it should always be in sequence i.e
-footer p{} then footer>p and not vice versa    OR  we can do  body>footer>p{} then we can use it in any sequence.*/
-#turbine{
-    border:3px solid red;
-    border-radius: 10px;
-    width:50%;
-
-}
-
-
+ and it should always be in sequence i.e
+footer p{} then footer>p and not vice versa OR  we can do  body>footer>p{} then we can use it in any sequence.*/
 main>p{
     font-size: 40px;
     color: red;
@@ -52,7 +47,7 @@ main>p{
     font-style: italic;
 }
 .contact main {
-    background-image: url("../img/rocky-mountains.jpg");
+    background-image: url("../img/rocks.jpg");
     background-size: cover;
   }
   .contact .mask {
