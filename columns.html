@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Columns | Warren Uhrich</title>
+    <!-- Set the character set, so the browser knows which character set should be loaded and valid for this webpage. -->
+    <meta charset="UTF-8">
+    <!-- For modern responsive web development: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Data: -->
+    <meta name="description" content="A website about Warren Uhrich.">
+    <meta name="author" content="Warren Uhrich">
+    <!-- Style(s): -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Script(s): -->
+    <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
+    <script src="js/scripts.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <h1>Columns</h1>
+    <header>
+        <nav>
+            <!-- Navigation. -->
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a><!-- Anchor element (hyperlink.) -->
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="columns.html">columns</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2> sample column layouts</h2>
+        <section>
+            <h3>demo equal-width two column layout</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sapiente corrupti illo autem est
+                explicabo veritatis pariatur dolores perferendis possimus, enim labore itaque aliquam provident maxime
+                numquam accusantium reprehenderit! Iusto?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eius et sunt placeat rem saepe est
+                doloremque iste architecto vel distinctio beatae ex, earum cumque dolore laudantium expedita magni
+                possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sapiente corrupti illo autem est
+                explicabo veritatis pariatur dolores perferendis possimus, enim labore itaque aliquam provident maxime
+                numquam accusantium reprehenderit! Iusto?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eius et sunt placeat rem saepe est
+                doloremque iste architecto vel distinctio beatae ex, earum cumque dolore laudantium expedita magni
+                possimus.</p>
+        </section>
+        <section>
+            <h3>Boxes Test</h3>
+            <div class="flex">
+            <div class="magenta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse adipisci obcaecati corporis ipsam minus amet perferendis, totam quas itaque praesentium quibusdam rerum in saepe, et ea beatae eveniet quae.</div>
+            <div class="orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse adipisci obcaecati corporis ipsam minus amet perferendis, totam quas itaque praesentium quibusdam rerum in saepe, et ea beatae eveniet quae.</div>
+            <div class="lime">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse adipisci obcaecati corporis ipsam minus amet perferendis, totam quas itaque praesentium quibusdam rerum in saepe, et ea beatae eveniet quae.</div>
+        </div>
+        </section>
+        
+    </main>
+    <footer>
+        <h2>Footer</h2>
+        <p>Thanks for visiting my page!</p>
+        <!-- Div is a non-semantic block-level styling element. -->
+        <p>
+            <!-- Span is a non-semantic inline element. -->
+            <!-- In our index page, our copyright is inside of a div, meaning it does not satisfy "body>footer>p". Only a direct descendent of footer
+          will satisfy that selector. Therefore it is yellow.-->
+            &copy; Copyright 2020 <span>TECHCareers</span>;
+            All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
