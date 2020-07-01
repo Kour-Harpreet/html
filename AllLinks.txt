@@ -1,0 +1,28 @@
+Also take a look at https://edabit.com/ for bite-sized problems.
+
+Resources - Class Recordings
+Links will be posted in the #class channel of slack.
+
+Resources - HTML / CSS
+https://htmlcheatsheet.com/ 
+https://htmlcheatsheet.com/css/  
+https://www.w3schools.com/
+
+Resources - HTML / CSS Validators
+https://validator.w3.org/  
+https://jigsaw.w3.org/css-validator/ 
+https://gsnedders.html5.org/outliner/  
+ 
+Resources - Design
+We don't teach a lot of design in the program, but here is some optional reading for anyone who is interested.
+http://vanseodesign.com/web-design/basic-design-principles/  
+http://vanseodesign.com/web-design/7-design-components/  
+http://vanseodesign.com/web-design/inverted-pyramid-design/  
+http://vanseodesign.com/web-design/dominance/  
+http://vanseodesign.com/web-design/visual-hierarchy/  
+http://vanseodesign.com/web-design/progressive-discolosure/  
+
+free photo website: pixabay
+
+flukeout.github.io     -   this link is for CSS game to understand selector specificity.
+
