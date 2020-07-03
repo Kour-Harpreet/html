@@ -1,0 +1,6 @@
+Resources:
+https://cssgridgarden.com/ - The Game We Played
+https://validator.w3.org/#validate_by_input - HTML Validator
+https://gsnedders.html5.org/outliner/ - HTML Outliner
+https://www.w3schools.com/css/css_rwd_intro.asp - Responsive Design Reading (W3) 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design - Responsive Design Reading (MDN) 
