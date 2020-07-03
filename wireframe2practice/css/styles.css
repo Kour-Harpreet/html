@@ -1,0 +1,16 @@
+header{
+    background-color: yellow;
+}
+main{
+    background-color: orange;
+}
+footer{
+    background-color: chartreuse;
+}
+/* left of divider */
+main>div{
+    width: 60%;
+}
+main>div>div{
+    width: 40;
+}
